@@ -22,4 +22,53 @@ Following command can be quickly initialize and test.
 ```sh
 make init
 make test
+
+```
+
+## Commands
+
+```sh
+
+# initialize env
+make init
+
+# update foundry
+make update
+
+# build soldiity
+make build
+
+# test contracts
+make test
+
+# clean builds
+make clean
+
+# estimate gas fee
+make gas
+
+# exec lint
+make lint
+
+# static analyze
+make staticcheck
+
+# start local node(aka anvil)
+make startnode
+
+# stop local node(aka anvil)
+make stopnode
+
+# deploy contracts
+make deploy-contract
+
+# verify contracts
+make verify-contract
+
+# deploy contracts for local node
+make deploy-local-contract
+
+# test contracts on local node
+make test-local
+
 ```
