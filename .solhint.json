@@ -1,0 +1,8 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "reason-string": ["warn",{"maxLength":64}],
+    "max-line-length": ["error",200],
+    "compiler-version": ["error","^0.8.13"]
+  }
+}
